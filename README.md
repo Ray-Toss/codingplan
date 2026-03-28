@@ -1,6 +1,18 @@
 # AI Coding Plan 对比工具
 
-> 更新日期2026.3.28 | 更新GLM5.1 模型
+> 本项目基于 [wmpeng/codingplan](https://github.com/wmpeng/codingplan) 修改，添加了作者自己的邀请码。
+
+> 更新日期2026.3.28
+
+---
+
+## 🙏 致谢
+
+特别感谢原作者 [wmpeng](https://github.com/wmpeng) 搭建了这么棒的工具！
+
+原项目地址：https://github.com/wmpeng/codingplan
+
+---
 
 ## 📖 简介
 
@@ -10,8 +22,9 @@
 
 ### 在线访问
 
-直接访问：[https://1302014895-2s0u9w2w8u.ap-beijing.tencentscf.com/s/cpgh](https://1302014895-2s0u9w2w8u.ap-beijing.tencentscf.com/s/cpgh)
+部署到 Cloudflare Pages 后会生成免费域名
 
+---
 
 ## 平台推荐
 
@@ -43,17 +56,17 @@
 
 | 平台 | 套餐 | 链接 | 首月价格 | 连续包月 | 连续包季 | 连续包年 | 支持模型 | 5小时请求数 | 每月总请求数 | 其他权益 | 备注 |
 |------|------|---------|---------|---------|---------|---------|---------|-----------|-----------|---------|------|
-| 智谱AI | Lite | [跳转](https://www.bigmodel.cn/glm-coding?ic=QHIO7TWK3Z) | - | ¥49 | ¥132 ~~147~~ / 季 | ¥470 ~~588~~ / 年 | GLM-5.1 | 1,200 | 24,000 | 免费MCP次数 | 1. 3倍Claude Pro用量 2. 官方为prompt计数，这里按1 prompt≈15次调用换算 3. 官方只有周限量无月限量，这里按照1月=4周计算 |
-| 智谱AI | Pro | [跳转](https://www.bigmodel.cn/glm-coding?ic=QHIO7TWK3Z) | - | ¥149 | ¥402 ~~447~~ / 季 | ¥1430 ~~1788~~ / 年 | GLM-5.1, GLM-5 | 6,000 | 120,000 | 免费MCP次数 | 1. 5倍Lite用量 2. 官方为prompt计数，这里按1 prompt≈15次调用换算 3. 官方只有周限量无月限量，这里按照1月=4周计算 |
-| 智谱AI | Max | [跳转](https://www.bigmodel.cn/glm-coding?ic=QHIO7TWK3Z) | - | ¥469 | ¥1266 ~~1407~~ / 季 | ¥4502 ~~5628~~ / 年 | GLM-5.1, GLM-5 | 24,000 | 600,000 | 免费MCP次数 | 1. 20倍Lite用量 2. 官方为prompt计数，这里按1 prompt≈15次调用换算 3. 官方只有周限量无月限量，这里按照1月=4周计算 |
-| MiniMax | Starter | [跳转](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) | - | ¥29 | - / 季 | ¥290 ~~348~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 600 | 9,000 | - | 约50TPS |
-| MiniMax | Plus | [跳转](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) | - | ¥49 | - / 季 | ¥490 ~~588~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 1,500 | 22,500 | - | 约50TPS |
-| MiniMax | Max | [跳转](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) | - | ¥119 | - / 季 | ¥1190 ~~1428~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 4,500 | 67,500 | - | 约50TPS |
-| MiniMax | Plus-极速版 | [跳转](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) | - | ¥98 | - / 季 | ¥980 ~~1176~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 1,500 | 22,500 | - | 约100TPS |
-| MiniMax | Max-极速版 | [跳转](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) | - | ¥199 | - / 季 | ¥1990 ~~2388~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 4,500 | 67,500 | - | 约100TPS |
-| MiniMax | Ultra-极速版 | [跳转](https://platform.minimaxi.com/subscribe/token-plan?code=7EEmX0yfbU&source=link) | - | ¥899 | - / 季 | ¥8990 ~~10788~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 30,000 | 450,000 | - | 约100TPS |
-| 字节·方舟 | Lite | [跳转](https://volcengine.com/L/sQLpJ0JukyE/) | - | ¥40 | - / 季 | - / 年 | Doubao-Seed-2.0, MiniMax-M2.5, Kimi-K2.5, GLM-4.7, DeepSeek-V3.2 | 1,200 | 18,000 | ArkClaw 7天体验 | - |
-| 字节·方舟 | Pro | [跳转](https://volcengine.com/L/sQLpJ0JukyE/) | - | ¥200 | - / 季 | - / 年 | Doubao-Seed-2.0, MiniMax-M2.5, Kimi-K2.5, GLM-4.7, DeepSeek-V3.2 | 6,000 | 90,000 | 免费ArkClaw | - |
+| 智谱AI | Lite | [跳转](https://www.bigmodel.cn/glm-coding?ic=WNWMZOHGSY) | - | ¥49 | ¥132 ~~147~~ / 季 | ¥470 ~~588~~ / 年 | GLM-5.1 | 1,200 | 24,000 | 免费MCP次数 | 1. 3倍Claude Pro用量 2. 官方为prompt计数，这里按1 prompt≈15次调用换算 3. 官方只有周限量无月限量，这里按照1月=4周计算 |
+| 智谱AI | Pro | [跳转](https://www.bigmodel.cn/glm-coding?ic=WNWMZOHGSY) | - | ¥149 | ¥402 ~~447~~ / 季 | ¥1430 ~~1788~~ / 年 | GLM-5.1, GLM-5 | 6,000 | 120,000 | 免费MCP次数 | 1. 5倍Lite用量 2. 官方为prompt计数，这里按1 prompt≈15次调用换算 3. 官方只有周限量无月限量，这里按照1月=4周计算 |
+| 智谱AI | Max | [跳转](https://www.bigmodel.cn/glm-coding?ic=WNWMZOHGSY) | - | ¥469 | ¥1266 ~~1407~~ / 季 | ¥4502 ~~5628~~ / 年 | GLM-5.1, GLM-5 | 24,000 | 600,000 | 免费MCP次数 | 1. 20倍Lite用量 2. 官方为prompt计数，这里按1 prompt≈15次调用换算 3. 官方只有周限量无月限量，这里按照1月=4周计算 |
+| MiniMax | Starter | [跳转](https://platform.minimaxi.com/subscribe/token-plan) | - | ¥29 | - / 季 | ¥290 ~~348~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 600 | 9,000 | - | 约50TPS |
+| MiniMax | Plus | [跳转](https://platform.minimaxi.com/subscribe/token-plan) | - | ¥49 | - / 季 | ¥490 ~~588~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 1,500 | 22,500 | - | 约50TPS |
+| MiniMax | Max | [跳转](https://platform.minimaxi.com/subscribe/token-plan) | - | ¥119 | - / 季 | ¥1190 ~~1428~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 4,500 | 67,500 | - | 约50TPS |
+| MiniMax | Plus-极速版 | [跳转](https://platform.minimaxi.com/subscribe/token-plan) | - | ¥98 | - / 季 | ¥980 ~~1176~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 1,500 | 22,500 | - | 约100TPS |
+| MiniMax | Max-极速版 | [跳转](https://platform.minimaxi.com/subscribe/token-plan) | - | ¥199 | - / 季 | ¥1990 ~~2388~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 4,500 | 67,500 | - | 约100TPS |
+| MiniMax | Ultra-极速版 | [跳转](https://platform.minimaxi.com/subscribe/token-plan) | - | ¥899 | - / 季 | ¥8990 ~~10788~~ / 年 | MiniMax-M2.7, MiniMax-M2.5 | 30,000 | 450,000 | - | 约100TPS |
+| 字节·方舟 | Lite | [跳转](https://volcengine.com/L/sQLpJ0JukyE/?invite_code=U3XSTNMC) | - | ¥40 | - / 季 | - / 年 | Doubao-Seed-2.0, MiniMax-M2.5, Kimi-K2.5, GLM-4.7, DeepSeek-V3.2 | 1,200 | 18,000 | ArkClaw 7天体验 | - |
+| 字节·方舟 | Pro | [跳转](https://volcengine.com/L/sQLpJ0JukyE/?invite_code=U3XSTNMC) | - | ¥200 | - / 季 | - / 年 | Doubao-Seed-2.0, MiniMax-M2.5, Kimi-K2.5, GLM-4.7, DeepSeek-V3.2 | 6,000 | 90,000 | 免费ArkClaw | - |
 | 阿里·百炼 | Pro | [跳转](https://www.aliyun.com/benefit/scene/codingplan) | - | ¥200 | - / 季 | - / 年 | Qwen-3.5, MiniMax-M2.5, GLM-5, Kimi-K2.5, GLM-4.7 | 6,000 | 90,000 | - | - |
 | 腾讯·混元 | Lite | [跳转](https://cloud.tencent.com/act/pro/codingplan#buy) | ¥7.9 | ¥40 | - / 季 | - / 年 | HY-2.0, HY-T1, GLM-5, Kimi-K2.5, MiniMax-M2.5 | 1,200 | 18,000 | - | - |
 | 腾讯·混元 | Pro | [跳转](https://cloud.tencent.com/act/pro/codingplan#buy) | ¥39.9 | ¥200 | - / 季 | - / 年 | HY-2.0, HY-T1, GLM-5, Kimi-K2.5, MiniMax-M2.5 | 6,000 | 90,000 | - | - |
@@ -77,4 +90,4 @@
 
 ---
 
-> 由扣子编程开发
+> 感谢原作者 [wmpeng](https://github.com/wmpeng) 的创意和努力！
