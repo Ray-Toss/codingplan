@@ -1,0 +1,118 @@
+{
+  "header": {
+    "title": "AI Coding Plan 对比",
+    "updateDate": "更新日期2026.3.28 | 更新GLM5.1 模型",
+    "subtitle": "七大平台 智谱AI、Kimi、MiniMax、字节·方舟、阿里·百炼、百度·千帆、腾讯·混元，全面对比",
+    "models": "支持Qwen-3.5，Doubao-Seed-2.0，MiniMax-M2.7，MiniMax-M2.5，GLM-5.1，GLM-5，Kimi-K2.5等模型",
+    "github": {
+      "url": "https://github.com/wmpeng/codingplan",
+      "text": "GitHub"
+    }
+  },
+  "recommendations": [
+    {
+      "name": "智谱AI",
+      "rating": 5,
+      "reasons": [
+        "独占GLM5.1模型。+1",
+        "提供免费MCP次数。+1"
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "rating": 5,
+      "reasons": [
+        "价格最便宜，且无需抢购。+1",
+        "独占MiniMax-M2.7模型。+1"
+      ]
+    },
+    {
+      "name": "字节·方舟",
+      "rating": 4,
+      "reasons": [
+        "独占Doubao-Seed-2.0系列模型。+1",
+        "不支持GLM-5，只支持GLM-4.7。-1",
+        "赠送真OpenClaw。+1"
+      ]
+    },
+    {
+      "name": "阿里·百炼",
+      "rating": 3,
+      "reasons": [
+        "独占Qwen3.5系列模型。+1",
+        "只有pro套餐，轻量使用性价比不高。-1"
+      ]
+    },
+    {
+      "name": "腾讯·混元",
+      "rating": 3,
+      "reasons": [
+        "支持常规GLM-5、Kimi-K2.5、MiniMax-M2.5。",
+        "自家混元模型无优势。"
+      ]
+    },
+
+    {
+      "name": "百度·千帆",
+      "rating": 3,
+      "reasons": [
+        "支持常规GLM-5、Kimi-K2.5、MiniMax-M2.5。"
+      ]
+    },
+    {
+      "name": "Kimi",
+      "rating": 3,
+      "reasons": [
+        "支持Kimi-K2.5。"
+      ]
+    }
+  ],
+  "ratingGuide": "基准3颗星，价格优势劣势1分，模型优势或独占模型1分，其他优势1分",
+  "notes": [
+    "包季/包年价格中的划线数字表示原始价格（包月×3 或 包月×12），未划线的为实际优惠价格。",
+    "使用表格跳转链接，部分平台可享优惠",
+    "本页面数据仅供参考，价格及权益最终以平台官方公布为准，建议在选择套餐前仔细阅读各平台的官方条款和服务协议"
+  ],
+  "accountSale": {
+    "title": "出纯手工账号",
+    "description": "低价出字节火山账号，都是邀请得来的代金券。",
+    "accounts": [
+    ],
+    "contact": {
+      "label": "微信",
+      "id": "wp3xpqakcggz22"
+    },
+    "qrcode": "assets/wechat-qr.jpg"
+  },
+  "table": {
+    "columns": {
+      "vendor": "平台",
+      "plan": "套餐",
+      "action": "跳转链接",
+      "firstMonthPrice": "首月价格",
+      "monthlyPrice": "连续包月",
+      "quarterlyPrice": "连续包季",
+      "yearlyPrice": "连续包年",
+      "models": "支持模型",
+      "hourlyRequests": "5小时请求数",
+      "monthlyRequests": "每月总请求数",
+      "benefits": "其他权益",
+      "note": "备注"
+    }
+  },
+  "filters": {
+    "vendor": "平台",
+    "model": "模型",
+    "firstMonthPrice": "首月价格",
+    "monthlyPrice": "包月价格",
+    "quarterlyPrice": "包季价格",
+    "yearlyPrice": "包年价格",
+    "reset": "重置筛选",
+    "stats": "显示 {showing} / {total} 个套餐"
+  },
+  "priceFilter": {
+    "title": "价格区间 (元)",
+    "reset": "重置",
+    "apply": "确定"
+  }
+}
